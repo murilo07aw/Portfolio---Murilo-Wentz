@@ -1,0 +1,54 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+header {
+    background-color: darkred; /* Cor de fundo escura */
+    color: black; /* Cor do texto claro */
+    padding: 300px; /* Espaçamento interno */
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    height: 675px;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 18px;
+    content: center;
+}
+
+section {
+    background-color: whitesmoke; /* Cor de fundo mais clara */
+    padding: 100px; /* Espaçamento interno */
+    margin-top: 0px;/* Espaçamento superior */
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+    color: darkred;
+    text-align: left justify;
+}
+
+footer {
+    background-color: darkred; /* Cor de fundo escura */
+    padding: 70px; /* Espaçamento interno */
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+    display: center;
+}
+
+img {
+    height: 200px;
+    border-radius: 10px;
+    width: 200px;
+    margin-top: auto;
+}
+
+.imagem-hover {
+    transition: transform 0.3s ease-in-out;
+}
+
+.imagem-hover:hover {
+    transform: scale(1.1); /* Aumenta um pouco a imagem ao passar o mouse */
+}
